@@ -83,6 +83,36 @@
 			);
 		</script>
 	</head>
+	
+	{
+	"type": "pie",
+	"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+	"innerRadius": "40%",
+	"pullOutEffect": "elastic",
+	"titleField": "category",
+	"valueField": "column-1",
+	"allLabels": [],
+	"balloon": {},
+	"titles": [],
+	"dataProvider": [
+		{
+			"category": "Solicitud rechazada",
+			"column-1": "157705"
+		},
+		{
+			"category": "Solicitud abierta",
+			"column-1": "572545"
+		},
+		{
+			"category": "Solicitud aceptada - Limitada",
+			"column-1": "599940"
+		},
+		{
+			"category": "Solicitud aceptada - Permanente",
+			"column-1": "272400"
+		}
+	]
+}
 	<body>
 		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
 	</body>
